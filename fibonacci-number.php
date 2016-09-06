@@ -10,7 +10,7 @@ echo  $result[0] . "<br />" .$result[1];
 
 for($x=1 ; $x<10 ; $x++) {
   $febo_num = $result[$x-1] + $result[$x];
-  array_push($result, $sum);
+  array_push($result, $febo_num);
 
   echo "<br />";
   print_r(end($result));
